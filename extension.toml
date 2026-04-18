@@ -1,7 +1,7 @@
-id = "qml"
-name = "QML"
+id = "qml-language-server"
+name = "QML Language Server"
 description = "QML language support via qml-language-server."
-version = "0.1.0"
+version = "0.1.1"
 schema_version = 1
 authors = ["Matthew Cushing <cushing.matt@gmail.com>"]
 repository = "https://github.com/cushycush/qml-language-server"
