@@ -1,0 +1,16 @@
+id = "qml"
+name = "QML"
+description = "QML language support via qml-language-server."
+version = "0.1.0"
+schema_version = 1
+authors = ["Matthew Cushing <cushing.matt@gmail.com>"]
+repository = "https://github.com/cushycush/qml-language-server"
+
+[language_servers.qml-language-server]
+name = "QML Language Server"
+language = "QML"
+languages = ["QML"]
+
+[grammars.qmljs]
+repository = "https://github.com/yuja/tree-sitter-qmljs"
+commit = "606a66b96a13ef30ed5c7ec7e5adc20a9a40157a"
